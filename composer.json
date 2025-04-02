@@ -1,5 +1,5 @@
 {
-    "name": "itdn/itdn-magento2-module-shopfinder",
+    "name": "itdn/magento2-module-shopfinder",
     "description": "Magento 2 backend-only module Shopfinder to manage shops",
     "type": "magento2-module",
     "license": "GPL-3.0",
