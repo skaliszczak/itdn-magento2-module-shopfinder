@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<add id="ITDN::top_level" title="ITDN" module="ITDN_Shopfinder" sortOrder="9999" resource="Magento_Backend::content"/>
+		<add id="ITDN_Shopfinder::itdn_shopfinder_shopfinder" title="Shopfinder" module="ITDN_Shopfinder" sortOrder="9999" resource="Magento_Backend::content" parent="ITDN::top_level" action="itdn_shopfinder/shopfinder/index"/>
+
+        <add id="ITDN_Shopfinder::itdn_shopfinder_shopfinderx" title="Shopfinder" module="ITDN_Shopfinder" sortOrder="9999" resource="Magento_Backend::content" parent="Magento_Backend::content_elements" action="itdn_shopfinder/shopfinder/index"/>
+
+	</menu>
+</config>
