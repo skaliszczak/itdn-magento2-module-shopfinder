@@ -3,8 +3,8 @@ Shopfinder - Magento Task
 
 Shopfinder Admin
 -------------
- - -> Content -> Shopfinder
- - -> ITDN -> Shopfinder
+ - Content -> Shopfinder
+ - ITDN -> Shopfinder
 
 GraphQL
 -------------
