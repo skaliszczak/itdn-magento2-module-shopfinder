@@ -1,6 +1,15 @@
 Shopfinder - Magento Task
 =============
 
+Installation
+-------------
+    copy contents app/code/ITDN into Your app/code of Your local instance
+
+Modules
+-------------
+- Shopfinder
+- ShopfinderGraphQl
+
 Shopfinder Admin
 -------------
  - Content -> Shopfinder
