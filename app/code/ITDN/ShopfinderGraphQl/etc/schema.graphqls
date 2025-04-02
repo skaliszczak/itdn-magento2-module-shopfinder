@@ -1,0 +1,23 @@
+type Shopfinder {
+    shopfinder_id: ID!
+    name: String!
+    identifier: String!
+    country: String
+}
+
+type Query {
+    shopfinderList: [Shopfinder] @resolver(class: "ITDN\\ShopfinderGraphQl\\Model\\Resolver\\ShopfinderList")
+    shopfinder(shopfinder_id: ID!): Shopfinder @resolver(class: "ITDN\\ShopfinderGraphQl\\Model\\Resolver\\Shopfinder")
+}
+
+type Mutation {
+    updateShopfinder(
+        shopfinder_id: ID!,
+        name: String,
+        identifier: String,
+        country: String
+    ): Shopfinder @resolver(class: "ITDN\\ShopfinderGraphQl\\Model\\Resolver\\UpdateShopfinder")
+
+    deleteShopfinder(shopfinder_id: ID!): Shopfinder @resolver(class: "ITDN\\ShopfinderGraphQl\\Model\\Resolver\\DeleteShopfinder")
+}
+
